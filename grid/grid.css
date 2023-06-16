@@ -1,0 +1,19 @@
+.child {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: teal;
+    color:aliceblue;
+    border: 2px solid red;
+  }
+
+  .container {
+    display: grid;
+    /* grid-template-columns:100px ; */
+    /* grid-template-columns: 50px; */
+    /* grid-template-columns: 100px 50px 372px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr 2fr 8fr; */
+    /* grid-template-columns: repeat(5, 2fr); */
+    /* grid-template-columns: repeat(3, 2fr) */
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+  }

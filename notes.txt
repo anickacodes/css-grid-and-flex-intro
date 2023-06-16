@@ -1,0 +1,47 @@
+class w text is the name 
+
+class with names and a space = 
+choosing a class w meaningful interaction - name intentionality
+
+class list: 
+
+
+      <div class="child one">One</div>
+      <div class="child two">Two</div>
+      <div class="child three">Three</div>
+      <div class="child four">Four</div>
+      <div class="child five">Five</div>
+      <div class="child six">Six</div>
+      <div class="child seven">Seven</div>
+      <div class="child eight">Eight</div>
+      <div class="child nine">Nine</div>
+
+all have a class of child - class list 
+
+a div isn't always a text based tag 
+
+padding - goes from in to out
+ border takes 2/3 arguments
+
+ display:flex; - puts from left to right in a line
+
+ flex-wrap : wrap - will wrap around as screen size moves
+
+ flex wrap: wrap-reverse - goes backwards
+
+
+ grid - is the ability to manage columns and rows
+
+ from display: grid 
+ can then specify grid template
+
+  grid-template-columns: 100px 50px 372px - can specify # of columns
+
+   grid-template-columns: 1fr; - fractions evenly divided
+
+
+grid-template-columns: 1fr 1fr 1fr 2fr 8fr
+   Ooh, and the 5th one takes up whatever 8fr is then ? which is 8 1frs?
+
+grid-template-columns: repeat(5, 2fr) 3 colums , 2fr even 
+repeats the math for specified colums
